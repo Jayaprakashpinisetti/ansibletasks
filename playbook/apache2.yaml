@@ -1,4 +1,8 @@
-- name: om amashivayya
+- name: om nama shivayya
+  hosts: all
+  become: yes
+  tasks:
+    - name: update packages and install apache
       ansible.builtin.apt:
         name: apache2
         update_cache: yes
