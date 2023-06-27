@@ -1,4 +1,4 @@
-- name: om nama  shivayya
+- name: om amashivayya
       ansible.builtin.apt:
         name: apache2
         update_cache: yes
