@@ -1,8 +1,6 @@
----
 -name: install java
  hosts: all
  become: yes
-
  tasks:
    - name: install java
      ansible.builtin.apt:
