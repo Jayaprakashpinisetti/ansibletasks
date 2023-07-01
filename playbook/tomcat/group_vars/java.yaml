@@ -4,6 +4,6 @@
   tasks:
     - name: install java
       ansible.builtin.apt:
-        name: "{{java_package}}"
+        name: "{{ java_package }}"
         state: present
         update_cache:  yes
